@@ -1,5 +1,5 @@
 baseURL = "/"
-title = "Commandline"
+title = "Sidon Dev"
 
 # Language settings
 contentDir = "content/pt"
@@ -60,14 +60,14 @@ id = "UA-00000000-0"
 
 [languages]
 [languages.pt]
-title = "Commandline"
-description = "Commandline website"
+title = "Sidon Dev"
+description = "Sidon Developer Website"
 languageName ="Portuguese"
 weight = 1
 
 [languages.en]
-title = "Goldydocs"
-description = "A Docsy example site"
+title = "Sidon Dev"
+description = "Sidon Developer Website"
 languageName ="English"
 contentDir = "content/en"
 # weight = 2
