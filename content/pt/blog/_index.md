@@ -7,7 +7,7 @@ menu:
 ---
 
 
-This is the **blog** section. It has two categories: News and Releases.
+Nessa seção posto meus textos para anunciar um video em meu canal ou para falar de assuntos diversos.
 
-Files in these directories will be listed in reverse chronological order.
+As postagens são listas em ordem cronologica decrescente.
 
