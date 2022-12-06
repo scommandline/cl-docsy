@@ -2,8 +2,8 @@ baseURL = "/"
 title = "Sidon Dev"
 
 # Language settings
-contentDir = "content/pt"
-defaultContentLanguage = "pt"
+contentDir = "content/pt-pt"
+defaultContentLanguage = "pt-pt"
 defaultContentLanguageInSubdir = false
 # Useful when translating.
 enableMissingTranslationPlaceholders = true
@@ -43,7 +43,7 @@ pygmentsStyle = "tango"
 
 # Configure how URLs look like per section.
 [permalinks]
-blog = "/:section/:year/:month/:day/:slug/"
+blog = "/:section/:day/:month/:year/:slug/"
 
 # Image processing configuration.
 [imaging]
@@ -59,21 +59,12 @@ id = "UA-00000000-0"
 # Language configuration
 
 [languages]
-[languages.pt]
+[languages.pt-pt]
 title = "Sidon Dev"
 description = "Sidon Developer Website"
 languageName ="Portuguese"
-weight = 1
-
-[languages.en]
-title = "Sidon Dev"
-description = "Sidon Developer Website"
-languageName ="English"
-contentDir = "content/en"
-# weight = 2
-
-
-
+contentDir = "content/pt"
+weight = 20
 
 
 [markup]
@@ -93,7 +84,7 @@ contentDir = "content/en"
 section = ["HTML", "print", "RSS"]
 
 [params]
-copyright = "The Docsy Authors"
+copyright = "Sidon Dev"
 privacy_policy = "https://policies.google.com/privacy"
 
 # First one is picked as the Twitter card image if not set on page.
@@ -118,16 +109,16 @@ version = "0.0"
 url_latest_version = "https://example.com"
 
 # Repository configuration (URLs for in-page links to opening issues and suggesting changes)
-github_repo = "https://github.com/google/docsy-example"
+github_repo = "https://github.com/scommandline/cl-docsy"
 # An optional link to a related project repo. For example, the sibling repository where your product code lives.
-github_project_repo = "https://github.com/google/docsy"
+github_project_repo = "https://github.com/scommandline/cl-docsy"
 
 # Specify a value here if your content directory is not in your repo's root directory
 # github_subdir = ""
 
 # Uncomment this if your GitHub repo does not have "main" as the default branch,
 # or specify a new value if you want to reference another branch in your GitHub links
-github_branch= "master"
+# github_branch= "master"
 
 # Google Custom Search Engine ID. Remove or comment out to disable search.
 gcs_engine_id = "d72aa9b2712488cc3"
@@ -163,8 +154,8 @@ sidebar_search_disable = false
 [params.ui.feedback]
 enable = true
 # The responses that the user sees after clicking "yes" (the page was helpful) or "no" (the page was not helpful).
-yes = 'Glad to hear it! Please <a href="https://github.com/USERNAME/REPOSITORY/issues/new">tell us how we can improve</a>.'
-no = 'Sorry to hear that. Please <a href="https://github.com/USERNAME/REPOSITORY/issues/new">tell us how we can improve</a>.'
+yes = 'Glad to hear it! Please <a href="https://github.com/scommandline/cl-docsy/issues/new">tell us how we can improve</a>.'
+no = 'Sorry to hear that. Please <a href="https://github.com/scommandline/cl-docsy/issues/new">tell us how we can improve</a>.'
 
 # Adds a reading time to the top of each doc.
 # If you want this feature, but occasionally need to remove the Reading time from a single page, 
@@ -175,36 +166,21 @@ enable = false
 [params.links]
 # End user relevant links. These will show up on left side of footer and in the community page if you have one.
 [[params.links.user]]
-  name = "User mailing list"
-  url = "https://example.org/mail"
-  icon = "fa fa-envelope"
-  desc = "Discussion and help from your fellow users"
-[[params.links.user]]
   name ="Twitter"
-  url = "https://example.org/twitter"
+  url = "https://twitter.com/sidoncd"
   icon = "fab fa-twitter"
   desc = "Follow us on Twitter to get the latest news!"
 [[params.links.user]]
   name = "Stack Overflow"
-  url = "https://example.org/stack"
+  url = "https://stackoverflow.com/users/2879341/sidon"
   icon = "fab fa-stack-overflow"
   desc = "Practical questions and curated answers"
 # Developer relevant links. These will show up on right side of footer and in the community page if you have one.
 [[params.links.developer]]
   name = "GitHub"
-  url = "https://github.com/google/docsy"
+  url = "https://github.com/scommandline/cl-docsy"
   icon = "fab fa-github"
   desc = "Development takes place here!"
-[[params.links.developer]]
-  name = "Slack"
-  url = "https://example.org/slack"
-  icon = "fab fa-slack"
-  desc = "Chat with other project developers"
-[[params.links.developer]]
-  name = "Developer mailing list"
-  url = "https://example.org/mail"
-  icon = "fa fa-envelope"
-  desc = "Discuss development issues around the project"
 
 # hugo module configuration
 

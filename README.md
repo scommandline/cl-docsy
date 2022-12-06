@@ -1,6 +1,7 @@
 # Docsy Example
 
-[Docsy][] is a [Hugo theme module][] for technical documentation sites, providing easy
+[Docsy][] is a [Hugo theme module][] for technical 
+documentation sites, providing easy
 site navigation, structure, and more. This **Docsy Example Project** uses the Docsy
 theme component as a hugo module and provides a skeleton documentation structure for you to use.
 You can clone/copy this project and edit it with your own content, or use it as an example.
@@ -136,4 +137,6 @@ See this [section](https://www.docsy.dev/docs/get-started/docsy-as-module/instal
 [example.docsy.dev]: https://example.docsy.dev
 [Hugo theme module]: https://gohugo.io/hugo-modules/use-modules/#use-a-module-for-a-theme
 [Netlify]: https://netlify.com
+
 # cl-docsy
+

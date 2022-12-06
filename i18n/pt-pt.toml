@@ -1,0 +1,77 @@
+# UI strings. Buttons and similar.
+
+[ui_pager_prev]
+other = "Anterior"
+[ui_pager_next]
+other = "Próximo"
+[ui_read_more]
+other = "Leia mais"
+[ui_search]
+other = "Buscar no site…"
+
+# Used in sentences such as "Posted in News"
+[ui_in]
+other = "em"
+
+# Used in sentences such as "All Tags"
+[ui_all]
+other = "todos"
+
+# Footer text
+[footer_all_rights_reserved]
+other = "Direitos reservados"
+
+[footer_privacy_policy]
+other = "Política de privacidade"
+
+# Post (blog, articles etc.)
+[post_byline_by]
+other = "By"
+[post_created]
+other = "Creado em"
+[post_last_mod]
+other = "Última modificação"
+[post_edit_this]
+other = "Edite esta página"
+[post_view_this]
+other = "Ver código fonte"
+[post_create_child_page]
+other = "Criar página filha"
+[post_create_issue]
+other = "Relatar problema de documentação"
+[post_create_project_issue]
+other = "Relatar problema de"
+[post_posts_in]
+other = "Posts em"
+[post_reading_time]
+other = "tempo de leitura"
+[post_less_than_a_minute_read]
+other = "menos que um minuto"
+
+# Print support
+[print_printable_section]
+other = "This is the multi-page printable view of this section."
+[print_click_to_print]
+other = "Click para imprimir"
+[print_show_regular]
+other = "Voltar à visualização normal desta página"
+[print_entire_section]
+other = "Imprimir a seção inteira"
+
+# Community
+[community_join]
+other = "Junte-se à comunidade {{ .Site.Title }}"
+[community_introduce]
+other = "{{ .Site.Title }} é um projeto open source que qualquer pessoa da comunidade pode usar, e contribuir. Junte-se a nós! Veja algumas formas de ficar informado e se envolver."
+[community_learn]
+other = "Aprender e envolver"
+[community_using]
+other = "Como usar {{ .Site.Title }}? Descubra mais aqui:"
+[community_develop]
+other = "Desenvolver e Contribuir"
+[community_contribute]
+other = "Se você quiser contribuir para {{ .Site.Title }}, Junte-se a nós:"
+[community_how_to]
+other = "Voce pode descobrir como contribuir para {{ .Site.Title }} em nosso"
+[community_guideline]
+other = "Diretrizes de Contribuição"
